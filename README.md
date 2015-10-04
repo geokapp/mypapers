@@ -78,7 +78,7 @@ Lets assume that the above paper falls under these categories: *Cloud, Security,
 
 Note, that you can use your desired form for the **key** field, but it should not contain any white spaces. In addition, the **category tags** should not contain white spaces.
 
-### Categories Structure
+### Categories structure
 
 You can specify the hierarchy of your desired categories in the file *structure.txt*. The content of this file should follow the form below. Note that **each category term should not contain white characters**. Category terms are separated from each other with spaces or tabs:
 
@@ -129,9 +129,10 @@ The tool accepts the following parameters:
 
 Each time that you update the categories hierarchy, you should run mypapers with the *-u categories* option to update the categories directory tree. Additionally, when you add new papers to the ALLDIR directory, you should run mypapers with the parameter *-u links* and *-u pages* to update paper links and the index page. You can also run mypapers with the *-u all* parameter to update the categories, the links, and the index page at once.
 
-Development and Contributing
+Development and contributing
 ----------------------------
-The initial developer of Skytale is [Giorgos Kappes](http://giorgoskappes.com). Feel free to contribute to the development of mypapers by cloning the repository: 
+
+The initial developer of mypapers is [Giorgos Kappes](http://giorgoskappes.com). Feel free to contribute to the development of mypapers by cloning the repository: 
 
 `git clone https://github.com/geokapp/mypapers`
 
