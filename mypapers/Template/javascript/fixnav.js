@@ -1,0 +1,1 @@
+$(document).ready(function() {var s = $("#nav");var pos = s.position();$(window).scroll(function() {var windowpos = $(window).scrollTop();if (windowpos >= pos.top) {s.removeClass("nav"); s.addClass("nav-fixed");} else {s.removeClass("nav-fixed");s.addClass("nav");}});});
