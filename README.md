@@ -83,16 +83,17 @@ Note, that you can use your desired form for the **key** field, but it should no
 You can specify the hierarchy of your desired categories in the file *structure.txt*. The content of this file should follow the form below. Note that **each category term should not contain white characters**. Category terms are separated from each other with spaces or tabs:
 
 > **File: structure.txt**
->
->CategoryA 
->CategoryA CategoryA1
->CategoryA CategoryA1 CategoryA11
->...
->CategoryA CategoryAn
->...
->CategoryB
->CategoryB CategoryB1
->...
+```
+CategoryA 
+CategoryA CategoryA1
+CategoryA CategoryA1 CategoryA11
+...
+CategoryA CategoryAn
+...
+CategoryB
+CategoryB CategoryB1
+...
+```
 
 The structure file will guide mypapers to generate the following directory hierarchy under *CATEGORIESDIR*:
 ```
@@ -111,7 +112,7 @@ CATEGORIESDIR
 
 You can also have notes for each one of your papers. To accomplish this, create a text file under the *NOTESDIR* directory and name it with the **key** field of the corresponding paper.
 
-### Bibliographic Data
+### Bibliographic data
 
 You can store bibliographic data in *bibtex* form for your papers in the file *bibliography.bib* under the *BIBDIR* directory. Each bibtex entry should contain a **key** that matches the **key** field of the corresponding paper.
 
