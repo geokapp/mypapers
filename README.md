@@ -1,4 +1,3 @@
-<img src="http://cs.uoi.gr/~gkappes/files/mypapers.jpg" align="right" />
 mypapers - A simple tool to manage and organize papers
 ===============================================
 
